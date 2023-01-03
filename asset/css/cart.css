@@ -1,0 +1,172 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cart {
+    padding: 100px 0;
+}
+
+.cart-content {
+    width: 1800px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.cart-content-left {
+    flex: 2;
+    text-align: center;
+}
+
+.cart-content-left table th {
+    padding-bottom: 30px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #333;
+    border-collapse: collapse;
+    border-bottom: 2px solid #dddd;
+    
+}
+
+.cart-content-left table p {
+    font-size: 14px;
+    color: #333;
+}
+
+.cart-content-left table input {
+    width: 45px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.cart-content-left table  span{
+    display: block;
+    cursor: pointer;
+    
+}
+
+.cart-content-left table  span i{
+    font-size: 25px;
+}
+
+.cart-content-left td:first-child img {
+    width: 150px;
+}
+
+.cart-content-left th{
+    font-size: 15px;
+    padding: 0 60px;
+    
+}
+.cart-content-left table td {
+    padding: 20px 0 ;
+    border-bottom: 2px solid #dddd;
+}
+
+.cart-content-left table td:first-child img {
+    width: 130px;
+}
+.cart-content-left table td:nth-child(2){
+    max-width: 130px;
+}
+
+.cart-content-left table td:nth-child(3) img {
+    width: 30px;
+}
+
+.cart-content-left-button button{
+    margin-top: 40px;
+    width: 20%;
+    text-transform: uppercase;
+    padding: 16px 0px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    border-radius: 30px 0;
+    cursor: pointer;
+}
+
+.cart-content-left-button button:first-child {
+    background-color: rgb(95, 75, 75);
+    color: white;
+}
+
+.cart-content-left-button button:first-child:hover {
+    background-color: #ccc;
+    color: black;
+}
+
+
+
+
+.cart-content-right {
+    display: block;
+}
+.cart-content-right-not {
+    display: inline-block;
+    padding: 24px;
+    background: rgba(247, 248, 249, 0.5);
+    border-radius: 2px;
+}
+
+.cart-content-right-not table {
+    width: 100%;
+}
+.cart-content-right-not table th {
+    padding-bottom: 30px;
+    font-size: 16px;
+    font-weight: 300;
+    color: black;
+    border-collapse: collapse;
+    border-bottom: 2px solid #dddd;
+}
+
+.cart-content-right-not table td {
+    font-size: 16px;
+    font-weight: 300;
+    color: black;
+    padding: 6px 0;
+}
+
+.cart-content-right-not  tr:nth-child(4) td {
+    border-bottom: 2px solid #dddd;
+}
+
+.cart-content-right-not tr td:last-child {
+    text-align: right;
+}
+
+.cart-content-right-text{
+    margin: 20px 0;
+    text-align: center;
+}
+
+
+
+.content-right-notice {
+    padding: 10px 0;
+}
+
+.content-right-notice i {
+    font-size: 20px;
+    padding: 0 6px;
+}
+
+.content-right-button input{
+    width: 140px;
+    height: 40px;
+}
+
+
+
+

@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 1800px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    padding: 1px;
+    border-bottom: 0.5px solid rgb(197, 187, 187);
+    z-index: 1;
+    top: 0%;
+    right: 20px;
+    left: 20px;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+#logo a{
+    width: 30%;
+    text-decoration: none;
+    color: black;
+    font-family: Cursive;
+    font-size: 3rem;
+    
+}
+header  li{
+    list-style: none;
+}
+
+#menu > li > a{
+    text-decoration: none;
+    color: black;
+    font-size: 23px;
+    font-weight: 200;
+}
+
+#menu{
+    flex: 2.5;
+    display: flex;
+    line-height: 130px;
+}
+
+#menu > li{
+    padding: 0 20px;
+    list-style: none;
+    position: relative;
+}
+#menu > li:hover{
+
+    border-bottom: 3px solid black;
+}
+.sub-menu{
+    position: absolute;
+    display: none;
+    top: 100px;
+    border: 1.2px solid #000;
+    width: 400px;
+    background-color: white;
+    border-radius: 4px;
+}
+.sub-menu > li{
+
+    display: block;
+    flex: 1;
+    padding: 0 40px;
+    list-style: none;
+    line-height: 50px;
+}
+.sub-menu a {
+    font-size: 20px;
+    font-weight: 600;
+    font-weight: 600;
+    text-decoration: none;
+    color: #000;
+}
+.sub-menu ul a{
+    opacity: 0.6;
+}
+
+#menu > li:hover >.sub-menu{
+    display: flex;
+    background-color: white;
+}
+
+
+
+
+#logo{
+    flex: 2.5;
+    line-height: 150px;
+}
+#other{
+    flex: 1;
+    display: flex;
+    line-height: 130px;
+}
+
+#other > li{
+    padding: 0 20px;
+    list-style: none;
+}
+
+#other > li >a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+}
+
+#other > li:first-child{
+    position: relative;
+}
+#other > li:first-child input{
+    width: 100%;
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+
+
+#other > li:first-child i{
+    position: absolute;
+    right: 10px;
+    top: 54px;
+    font-size: 20px;
+}
+

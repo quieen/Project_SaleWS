@@ -1,0 +1,30 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.admin-content{
+    padding-top: 0;
+}
+.admin-content-left {
+    flex: 1;
+    display: block;
+    background: rgb(60, 146, 146);
+}
+h1{
+    color: white;
+    border-bottom: 2px solid white ;
+}
+
+
+.list{
+    border-bottom: 1px solid #ccc;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row a{
+    margin-left: 20px;
+}

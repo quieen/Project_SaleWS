@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cartegory{
+    height: auto;
+    display: block;
+}
+
+.cartegory .container{
+    width: 1698px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cartegory .container .row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cartergory-top{
+    margin-bottom: 50px;
+}
+.cartegory-top p{
+    margin: 0 12px;
+    font-size: 20px;
+}
+
+/* .cartegory-left{
+    width: 20%;
+} */
+.cartegory-right{
+    width: 100%;
+}
+
+.cartegory-right-top-item:first-child {
+   
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.cartegory-right-top-item{
+
+    width: 20%;
+    padding: 0 12px;
+    border-radius: 10px;
+}
+
+.cartegory-right-top-item button{
+    width: 60%;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffff;
+    border: 1px solid #dddddd;
+    cursor: pointer;
+}
+.cartegory-right-top-item select{
+    width: 60%;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffff;
+    border: 1px solid #dddddd;
+    cursor: pointer;
+}
+
+.cartegory-right-content {
+    width: 70%;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.cartegory-right-content-item{
+    width: 25%;
+    padding: 10px 0px;
+    height: 400px;
+   
+}
+
+.cartegory-right-content .cartegory-right-content-item > h1 >a{
+    font-size: 15px;
+    margin-top: 6px;
+    text-decoration: none;
+    color: black;
+}
+
+.cartegory-right-content-item{
+    width: 25%;
+}
+.cartegory-right-content-item  img{
+    height: 90%;
+    width: 90%;
+    border-radius: 4px;
+}
+.cartegory-right-content-item p{
+    font-size: 12px;
+}
+
+.cartergory-right-bottom {
+    justify-content: space-between;
+    margin: 30px 0 20px;
+    width: 100%;
+}
+.cartergory-right-bottom p{
+    font-size: 13px;
+}
+
+.cartegory-left ul li{
+    list-style: none;
+    padding: 12px 0;
+}
+
+.cartegory-left ul li > a{
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+/* .cartegory-left ul li ul li{
+    padding-left: 12px;
+}
+
+.cartegory-left-li ul{
+    display: none;
+}
+
+.cartegory-left-li.block ul{
+    display: block;
+}
+
+.cartegory-left ul li ul li a{
+    color: #333333;
+    font-size: 14px;
+} */
